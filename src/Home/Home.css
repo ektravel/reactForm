@@ -1,0 +1,52 @@
+@font-face{
+    font-family: "Roboto-Bold";
+    src: url('https://fonts.googleapis.com/css?family=Roboto:700');
+}
+@font-face{
+    font-family:'Merriweather-Regular', serif;
+    src: url('https://fonts.googleapis.com/css?family=Merriweather');
+}
+#homePage{
+    background-color: #585858;
+    padding-right:0;
+    height:100%;
+}
+#wrapper{
+    width: 455px;
+    float: right;
+    margin-right: 80px;
+}
+#robotImg{
+    margin-top: 32px;
+    height: 26px;
+    width: 177px;
+    margin-bottom: 32px;
+}
+#homeH1{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Roboto-Bold', sans-serif;
+    margin-bottom: 16px;
+}
+#homeP{
+    color: #EAEAEA;
+    font-size: 14px;
+    font-family:'Merriweather-Regular', serif;
+}
+@media (max-width: 576px){
+    #homePage{
+      background-color: #585858;
+      padding-bottom: 32px;
+      height: auto;
+      width:100%;
+    }
+    #wrapper{
+      width: 100%;
+      float: none;
+      /* margin-right: 0; */
+    }
+    #homeH1{
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+  }

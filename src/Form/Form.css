@@ -1,0 +1,121 @@
+@font-face{
+  font-family: "Roboto-Bold";
+  src: url('https://fonts.googleapis.com/css?family=Roboto:700');
+}
+@font-face{
+  font-family:'Merriweather-Regular', serif;
+  src: url('https://fonts.googleapis.com/css?family=Merriweather');
+}
+#formElement{
+  width: 376px;
+  margin-top: 90px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  outline: 0;
+}
+#formPage{
+  padding-left: 0;  
+}
+.inputLabel{
+  font-size: 14px;
+  color: #666666;
+  font-family:'Merriweather-Regular', serif;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.form-group{
+  margin-bottom: 24px;
+}
+.form-control{
+  border-radius: 6px;
+  height: 48px;
+  font-family: 'Roboto-Bold', sans-serif;
+  color: #666666;
+  font-size: 14px;
+  background-color: #F7F7F7;
+  border: 1px solid #EAEAEA;
+}
+.was-validated .form-control:valid:focus,.was-validated .form-control:valid,.form-control:valid:focus, 
+.form-control:required:valid {
+  box-shadow:none;
+  background-color: #FFFFFF;
+  border: 1px solid #00ADEE;
+}
+.was-validated .form-control:invalid,.was-validated .form-control:invalid:focus{
+  border: 1px solid #E70000;
+  background-color: #FFFFFF;
+  box-shadow:none;
+}
+.feedbackYes{
+  font-size:12px;
+  color:#E70000;
+  font-family:'Merriweather-Regular', serif;
+  text-transform: uppercase;
+  margin-left: 5px;
+  display: inline-block;
+}
+.feedbackNo{
+  display: none;
+}
+.form-control:focus{
+  color:#666666;
+  background-color:#fff;
+  border-color:#00ADEE; 
+  box-shadow: none;
+  outline: 0;
+}
+.form-control:optional:not([value=""]):not(:focus){
+  background-color: #FFFFFF;
+  border: 1px solid #00ADEE;
+  box-shadow: none;
+}
+.form-control:optional:not(:focus){
+  background-color: #F7F7F7;
+  border: 1px solid #EAEAEA;
+  box-shadow: none;
+}
+#nextBtn{
+  margin-top:24px;
+  background-color: #FFAB44;
+  border: 1px solid transparent;
+  color: #FFFFFF;
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 16px;
+  border-radius: 6px;
+  height: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-shadow: none;
+}
+@media (max-width: 576px){
+  #formElement{
+    margin-top: 32px;
+    padding-left:15px;
+    background-color: #FFFFFF;
+    box-shadow: none;
+    outline: 0;
+    width:100%;
+    margin-left: 0;
+  }
+  #formPage{
+    padding-right:15px;
+  }
+  #arrowImg{
+    width: 10px;
+    height: 10px;
+  }
+  #nextBtn{
+    margin-top:24px;
+    background-color: #FFAB44;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 48px;
+    width: 100%;
+    box-shadow: none;
+  }
+}
